@@ -1,0 +1,46 @@
+* {
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+table {
+    
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+td , th {
+    padding: 10px;
+    border: 1px solid lightgray;
+}
+.cen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.cen svg {
+    width: 26px;
+    height: 26px;
+}
+.cen input{
+    width: 20px;
+    height: 20px;
+}
+input[type="tel"]{
+    width: 30px;
+    padding: 5px;
+    outline: none;
+}
+select{
+    width: 45px;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+}
+span {
+    background-color:#dff5df;
+color:#2d8b4d;
+    padding: 5px 10px;
+    border-radius: 20px;
+}

@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  font-family: lato, sans-serif;
+}
+.menu {
+  display: flex;
+  background-color: #000;
+  color: #fff;
+  
+  
+}
+.menu img {
+    width: 50px;
+    margin-left: auto;
+}
+.menu p {
+  padding: 15px 24px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 400;
+}
+.menu p:hover {
+  background-color: #fff;
+  color: #000;
+}
+.band {
+  padding: 60px 0;
+  text-align: center;
+}
+.band .text1 {
+  width: 60%;
+  margin: auto;
+  padding: 20px;
+}
+.band .text1 h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.band .text1 p {
+  margin-bottom: 20px;
+}
+.images {
+  width: 60%;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.images img {
+  width: 153px;
+  border-radius: 2%;
+  margin-top: 20px;
+}
+.selector {
+  background-color: black;
+}
+.tour {
+  width: 900px;
+  margin: auto;
+  padding: 50px;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+.text {
+  color: gray;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.mohho {
+  background: white;
+  text-align: start;
+}
+
+.moh {
+  padding: 15px;
+  border-bottom: 1px solid lightgray;
+}
+.num{
+    text-align: end;
+}
+.num .num1{
+    border-radius: 50%;
+    padding: 8px;
+    background-color: #000;
+    color: #fff;
+    
+}
+
+.sold {
+  background: red;
+  color: white;
+  padding: 5px 10px;
+  margin-left: 20px;
+}
+
+.cards {
+  margin-top: 30px;
+}
+
+.card {
+  width: 30%;
+  background: white;
+  display: inline-block;
+  margin-right: 2%;
+  padding-bottom: 20px;
+  
+}
+
+.card img {
+  width: 100%;
+}
+
+.card h3,
+.card p {
+  margin: 15px;
+}
+
+.buy {
+  background: black;
+  color: white;
+  cursor: pointer;
+
+  padding: 10px 20px;
+}
+
+.buy:hover {
+  background: gray;
+}
+.contact {
+    padding: 50px;
+}
+.contact h1 , .contact p{
+    padding-bottom: 10px;
+    
+
+}
+.input p {
+    border: 1px solid #000;
+    width: 281px;
+    height: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.input .bar2 {
+    display: flex;
+    justify-content: end;
+}
+.input .bar {
+    display: flex;
+    gap: 10px;
+}
+.bar p {
+    width: 125px;
+}
+.con {
+    display: flex;
+    justify-content: center;
+    gap: 400px;
+    text-align: start;
+}
+.footer {
+    padding: 30px;
+}
+.footer img {
+    width: 160px;
+}
+.footer p a {
+  text-decoration: none;
+    color: gray;
+    
+}

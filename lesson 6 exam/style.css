@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+}
+.menu {
+  display: flex;
+  
+}
+.menu div {
+  text-align: center;
+  width: 25%;
+
+  font-size: 25px;
+  padding: 10px;
+  background-color: #f1f1f1;
+}
+.menu div:hover {
+  background-color: #9e9e9e;
+  color: white;
+
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.marketing {
+  margin: 5%;
+  margin-left: 11%;
+  margin-bottom: 3%;
+}
+.marketing h1 ,.marketing p {
+  text-align: left;
+}
+.imge {
+  width: 80%;
+  display: flex;
+}
+.imge img {
+  width: 100%;
+}
+.botom {
+  background-color: #616161;
+  width: 80%;
+  height: 30px;
+}
+.boxwhat {
+  margin: 4%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.h {
+  border-bottom: 8px solid gray;
+  padding-bottom: 20px;
+}
+.continers {
+  display: flex;
+  justify-content: center;
+}
+.continers div {
+  padding: 1%;
+  width: 20%;
+}
+.con1 {
+  background-color: #f1f1f1;
+  color: #000;
+}
+.con2 {
+  background-color: #9e9e9e;
+  color: #000;
+}
+.con3 {
+  background-color: #616161 ;
+  color: #f1f1f1;
+}
+.con4 {
+  background-color: #000;
+  color: #f1f1f1;
+}
+h1 {
+  text-align: center;
+  padding: 20px;
+}
+p{
+  text-align: center;
+  
+}
+.box {
+  width: 27%;
+  border: 1px solid lightgray;
+}
+.box h1 {
+  background-color: black;
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
+.box p {
+  padding: 15px;
+
+  text-align: center;
+
+  border: 1px solid lightgray;
+}
+.box span {
+  font-size: 40px;
+}
+.box div p {
+  padding: 15px 30px;
+  background-color: green;
+  color: white;
+  width: 60px;
+  margin: auto;
+}
+.box div {
+  padding: 20px;
+}
+.plans {
+  display: flex;
+  justify-content: center;
+}
+.box {
+  margin: 20px 20px;
+}
+.pro h1 {
+  background-color: gray;
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
+.all {
+  display: flex;
+  justify-content: center;
+}
+.we {
+  width: 25%;
+  margin: 2%;
+  border: 1px solid #f1f1f1;
+
+  
+  
+  
+}
+.we p,h2{
+  
+  text-align:left;
+  margin: 10px;
+
+}
+.we img{
+  width:100%;
+}
+.we div p {
+  padding: 15px 30px;
+  background-color: #f1f1f1 ;
+  color: black;
+  width: 100px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+}
+.we div {
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+}
+.contact {
+ text-align: left;
+ 
+  width: 90%;
+  margin: auto;
+}
+.contact p {
+  text-align: left;
+  margin-left: 60px;
+}
+.contact div {
+    justify-content: center;
+  width: 90%;
+  height: 40px;
+  margin: auto;
+  margin-top: 1px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+
+}
+.contact h3 {
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    color: white;
+    padding: 10px;
+}
+.footer {
+  background-color: #f1f1f1;
+  margin-top: 100px;
+  padding: 16px;
+  
+}
+.footer div {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+    
+   
+}
+.footer div p {
+  padding: 15px 30px;
+  background-color: #000;
+  color: white;
+  width: 70px;
+  margin: auto;
+}
+.botom img{
+  width: 100%;
+}

@@ -1,0 +1,87 @@
+* {
+  font-family: "Karma", sans-serif;
+}
+.head {
+  font-size: 27px;
+  display: flex;
+  background-color: #fff;
+  justify-content: center;
+  margin: 0;
+  
+}
+.center {
+  margin-left: 42%;
+  margin-right: 42%;
+}
+.continer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.continer div {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 250px;
+}
+.continer img {
+  width: 100%;
+}
+.menu {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.menu a {
+  text-decoration: none;
+  border: 1px solid #333;
+  color: #333;
+  padding: 15px;
+  border-radius: 5px;
+}
+.menu a:hover {
+  background-color: #333;
+  color: #fff;
+}
+.menu .num1 {
+  background-color: #333;
+  color: white;
+}
+.chef {
+  text-align: center;
+  padding: 100px;
+}
+.chef img {
+  width: 800px;
+  height: 533px;
+}
+
+.foo {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #333;
+}
+
+.wimg img {
+  width: 50px;
+}
+.wimg1 {
+  display: flex;
+}
+
+.foo div {
+  margin: 10px;
+
+  width: 400px;
+}
+.foo span {
+  display: inline-block;
+  background-color: #ddd;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 5px;
+  
+  
+}
+

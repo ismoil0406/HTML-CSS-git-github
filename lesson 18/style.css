@@ -1,0 +1,286 @@
+* {
+  margin: 0px;
+  font-family: sans-serif;
+}
+.header {
+  width: 90%;
+  display: flex;
+  padding: 40px 100px;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgrey;
+  position: fixed;
+  top: 0;
+  z-index: 5;
+  background-color: white;
+}
+.divLinks {
+  display: flex;
+  font-size: 23px;
+  gap: 20px;
+}
+.divMenu {
+  display: none;
+}
+.heroSection,
+.sec2,.sec5 {
+  margin-top: 113px;
+  display: flex;
+  padding: 110px;
+  justify-content: space-between;
+}
+.under1,
+.under2,.s5left,.s5right {
+  width: 27%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 15px;
+}
+.under1 h1,
+.under2 h1,.s5left h1 {
+  font-size: 45px;
+}
+.under1 p,
+.under2 p,.s5left p,.s5right div p {
+  font-size: 20px;
+  color: grey;
+}
+.under1 button,.s5left button {
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background-color: #69b99d;
+  width: 250px;
+}
+.img1 {
+  width: 700px;
+}
+.sec2 {
+  gap: 20px;
+}
+.under2 {
+  width: 100%;
+  justify-content: start;
+}
+.under2 p {
+  font-size: 16px;
+}
+
+.sec3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ .s3top {
+  width: 523px;
+  height: 135px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.s3bottom {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin: 60px 0;
+}
+.s3bottom div img {
+  width: 80px;
+}
+.s3bottom div {
+  box-sizing: border-box;
+  width: 352px;
+  height: 352px;
+  text-align: center;
+  box-shadow: 0px 0px 12px 0px #00000014;
+  border-bottom: 4px solid #69b99d;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+}
+.s3bottom div h1 {
+  font-size: 24px;
+}
+.s3bottom div p {
+  font-size: 16px;
+  color: gray;
+  width: 256px;
+  height: 84px;
+}
+.sec4 {
+    height: 826px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.s4top {
+  text-align: center;
+}
+.s4top  h1 {
+    width: 481px;
+}
+.s4bottom {
+  display: flex;
+  gap: 50px;
+
+} 
+.s4box {    
+    width: 544px;
+    height: 264px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 12px 0px #00000014;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px;
+    box-sizing: border-box;
+    row-gap: 30px;
+}  
+.s4box p {
+    width: 420px;
+height: 104px;
+
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+
+}
+.s4box div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 158px;
+height: 32px;
+
+}
+.s4box p span {
+    font-size: 48px;
+    color: #69b99d;
+}
+footer {
+    background: #69b99d;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;
+}
+.fleft {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+i {
+  color: #69b99d;
+}
+@media (max-width: 510px) {
+    
+  .divLinks {
+    display: none;
+  }
+  .header {
+    padding: 30px;
+  }
+  .divMenu {
+    display: block;
+  }
+  .heroSection {
+    flex-direction: column-reverse;
+    padding: 0;
+    align-items: center;
+  }
+  .img1,
+  .img2 {
+    width: 90%;
+    display: block;
+    margin: auto;
+  }
+  .under1,
+  .under2,.s5left {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  .under1 h1,
+  .under2 h1,.s5left h1 {
+    font-size: 30px;
+    margin-top: 30px;
+  }
+  .under2 p,.s5left p  {
+    text-align: justify;
+    padding: 0 30px;
+  }
+.sec2,.sec5 {
+  
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+  }
+  .s3bottom {
+    display: block;
+  }
+  .s3bottom div {
+    margin: 20px 10px;
+  }
+  .s3top {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 30px 0 0 0;
+  }
+  .s3top p {
+    width: 327px;
+    text-align: start;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .s3top h1 {
+    text-align: start;
+  }
+ 
+.s4bottom {
+    display: block;
+}
+
+.s4box {
+      width: 387px;
+      height: 389px;
+      padding: 40px;
+
+  }
+  .s4box p {
+    width: 263px;
+    height: 182px;
+    text-align: justify;
+  }
+  .s4top {
+    text-align: start;
+  }
+  .s4top h1 {
+    width: 259px;
+  }
+  .s4box1 {
+    display: none;
+  }
+  .s5right {
+    width: 100%;
+    box-sizing: border-box;
+    height: 200px;
+    margin-top: 60px;
+    padding-left: 40px ;
+  }
+  footer{
+    display: block;
+  }
+  .fleft {
+    margin: 50px 0;
+  }
+  
+}

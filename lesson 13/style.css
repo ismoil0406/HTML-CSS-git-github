@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    font-size: 18px;
+}
+.all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+
+input {
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid gray;
+    display: block;
+    width: 270px;
+
+}
+fieldset {
+    border-radius: 20px;
+    width: 300px;
+    height: 350px;
+   
+    flex-direction: column;padding: 20px;
+}
+textarea {
+    width: 300px;
+    height: 70px;
+}

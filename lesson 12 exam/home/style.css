@@ -1,0 +1,284 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+}
+.header {
+  display: flex;
+
+  justify-content: center;
+  border: 1px solid lightgray;
+  gap: 500px;
+}
+.hleft {
+  display: flex;
+  width: 546px;
+  gap: 24px;
+}
+.himg {
+  display: flex;
+  align-items: center;
+}
+.hlp {
+  display: flex;
+  align-items: center;
+}
+.hlp p {
+  width: 114px;
+
+  color: #121722b2;
+}
+.hright {
+  width: 188px;
+  height: 68px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 20px;
+}
+.hrbtn {
+  display: flex;
+  justify-content: center;
+  width: 132px;
+  height: 40px;
+  background-color: #408cff1a;
+  color: #4058ff;
+  align-items: center;
+  border-radius: 20px;
+}
+.sec1,
+.sec3,
+.sec4,
+.sec7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.s1left {
+  width: 496px;
+  height: 288px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.s1left h1 {
+  font-weight: 400;
+  font-size: 50px;
+}
+.s1left p {
+  font-weight: 400;
+  font-size: 20px;
+}
+.s1btn {
+  display: flex;
+  justify-content: center;
+  width: 132px;
+  height: 40px;
+  background-color: #4058ff;
+  color: #fff;
+  align-items: center;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.sec2,
+.sec6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 260px;
+  row-gap: 20px;
+}
+.sec2 div h1,
+.sec6 div h1 {
+  font-weight: 400;
+  font-size: 36px;
+}
+.sec2 p,
+.sec6 p {
+  color: #121722b2;
+
+  font-weight: 400;
+  font-size: 21px;
+}
+
+.s3all,
+.s7all {
+  width: 1280px;
+  height: 682px;
+  background-color: #4058ff;
+  border-radius: 16px;
+  color: #fff;
+}
+.s3left,
+.s4right,
+.s7left {
+  width: 355.1875px;
+  height: 446px;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.s3left h1,
+.s4right h1 {
+  font-weight: 400;
+  font-size: 34px;
+}
+.s3left p,
+.s4right p,
+.s7left p {
+  font-weight: 400;
+  font-size: 20px;
+  width: 290px;
+  height: 116px;
+}
+.s3lb {
+  border-top: 1px solid white;
+}
+.s3lb p {
+  display: flex;
+  align-items: center;
+  width: 255px;
+}
+.s4all {
+  width: 1280px;
+  height: 682px;
+}
+.sec4 {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.s4right {
+  width: 320px;
+  height: 283px;
+}
+.sec5 {
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.s5box {
+  background: #f8f8f8;
+  border-radius: 20px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.s5text h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.s5text p {
+  color: #666;
+  line-height: 1.6;
+}
+
+.s5img {
+  margin-top: 30px;
+}
+
+.s5img img {
+  border-radius: 15px;
+}
+.s7all {
+  background-color: #121722;
+}
+.s7left {
+  justify-content: center;
+}
+.sec8 {
+  width: 1280px;
+  height: 320px;
+  margin: 80px auto;
+  background: #4a5cff;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec8 h2 {
+  color: #fff;
+  font-size: 42px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.sec8 .button {
+  width: 150px;
+  height: 50px;
+
+  border-radius: 30px;
+  background: #fff;
+  color: #4a5cff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec8 .button:hover {
+  background: #f0f0f0;
+}
+
+.footer {
+  padding: 60px 80px;
+  display: flex;
+  justify-content: center;
+  background: #fff;
+  gap: 150px;
+}
+.fall {
+  width: 1280px;
+  display: flex;
+  justify-content: space-around;
+}
+.f_logo {
+  width: 250px;
+}
+
+.f_logo h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.f_logo p {
+  color: #777;
+  font-size: 14px;
+}
+
+.f_box {
+  display: flex;
+  flex-direction: column;
+}
+
+.f_box h4 {
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.f_box a {
+  text-decoration: none;
+  color: #333;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.f_box a:hover {
+  color: #4f46e5;
+}
