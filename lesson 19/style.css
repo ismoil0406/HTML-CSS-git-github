@@ -145,9 +145,15 @@ font-weight: 400;
 }
 .section4 .under2 div {
   box-shadow: none;
-  width: 240px;
-  height: 236px;
+  width: 100px;
+  height: 136px;
 }
+.section4 .under2 div img{
+  box-shadow: none;
+  width: 150px;
+  height: 136px;
+}
+
 footer {
   
   width: 100%;
